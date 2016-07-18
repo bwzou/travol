@@ -1,0 +1,12 @@
+
+body {font:12px Tahoma;margin:0px;text-align:center;background:#FFF;}
+
+#container {width:100%}
+
+
+#Header {width:800px;margin:0 auto;height:100px}
+
+#PageBody {width:800px;margin:0 auto;height:700px;background:#FFFFFF}
+
+
+#Footer {width:800px;margin:0 auto;height:50px;background:#00ff00}

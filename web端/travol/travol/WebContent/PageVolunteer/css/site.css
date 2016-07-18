@@ -1,0 +1,53 @@
+
+dd {
+    display: block;
+    -webkit-margin-start: 2px;              /*这决定排序能不能并列*/
+}
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.person_info {
+    width: 150px;
+    height: 32px;
+    float: left;
+    margin: 15px 30px 15px 20px;
+}
+.person_info .focus_num {
+    width: 72px;
+    height: 32px;
+    border-right: 1px solid #f0f0f0;
+    float: left;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+}
+.person_info .fans_num {
+    width: 72px;
+    height: 32px;
+    float: left;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+}
+.person_info .fans_num b {
+    color: #333;
+    display: block;
+    width: 72px;
+    text-align: center;
+    line-height: 14px;
+    float: left;
+}
+.person_info .focus_num b {
+    color: #333;
+    display: block;
+    width: 72px;
+    text-align: center;
+    line-height: 14px;
+    float: left;
+}
